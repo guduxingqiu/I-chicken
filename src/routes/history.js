@@ -1,6 +1,6 @@
 // src/routes/parkingHistory.js
 import express from 'express';
-import { getUserParkingHistory, getAllParkingHistory } from '../controllers/parkingHistoryController.js';
+import { getUserParkingHistory, getAllParkingHistory } from '../controllers/historyController.js';
 import authMiddleware from '../middleware/auth.js'; // 需要验证的中间件
 
 const router = express.Router();
